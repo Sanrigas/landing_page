@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+
+
+    <title>landing_page</title>
+    <style>
+      /* Custom CSS for navbar adjustments */
+      .navbar {
+        padding: 20px; /* Increase the padding */
+        font-size: 20px; /* Increase the font size */
+        margin-top: -10px;
+      }
+
+      .navbar-brand {
+        font-size: 24px; /* Increase the font size */
+        margin-left: -60px;
+      }
+
+      .navbar-nav .nav-link {
+        padding: 10px 20px; /* Increase the padding */
+      }
+    </style>
+    <style>
+      /* Custom CSS for header adjustments */
+      .header {
+        height: 70vh; /* Set the height to half of the viewport height */
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Align content to the left side */
+        flex-direction: column;
+        background-color:white;
+        color: black;
+        width: 50%; /* Set the width to 50% of the page */
+
+      }
+      .image-container {
+        display: flex;
+        justify-content: flex-end; /* Align the image to the right side */
+        align-items: center;
+        height: 50%; /* Set the height to half of the viewport height */
+        width: 50%; /* Set the width to 50% of the page */
+        margin: auto ; /* Center the image horizontally */
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url("https://wallpaperaccess.com/full/1771974.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    <h1></h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png" alt="" width="120" height="44">
+        </a>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto"></div>
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" href="#">Courses</a>
+            <a class="nav-link active" href="#">Pricing</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Regions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Tai Po</a></li>
+                <li><a class="dropdown-item" href="#">Kowloon</a></li>
+                <li><a class="dropdown-item" href="#">Tuen Mun</a></li>
+                </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header">
+      <h1>Discover a new world of learning</h1>
+      <p>Enroll on the available courses by providing your email</p>
+      <form class="row g-0">
+        <div class="col-md-8">
+          <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+        </div>
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>   
+    </header>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
